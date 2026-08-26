@@ -4,20 +4,20 @@
 
 本仓库只保留云台控制、反馈、HOME、安全停止和串口联调功能。视觉、K230、下位机 TI 通信、射击、激光校准、WS2812 和 SPI2 业务均不在本仓库范围内。
 
+## 演示视频
+
+
+
+
+https://github.com/user-attachments/assets/8bc28364-a470-4b7c-a2cc-7c203f864003
+
+
+
+
 ## 3D 机械模型
 
 用于安装 STM32、F32C 云台驱动板和电源相关板卡的 STL 支架已归档在 [`hardware/3d-models/stm32-f32c-gimbal-holder-v1/`](hardware/3d-models/stm32-f32c-gimbal-holder-v1/)。该目录包含 STL、由真实网格渲染的 PNG 预览、封口面视角下的四个挂架顺时针编号说明，以及独立的 CC BY 4.0 机械文件许可。模型的最大挂架可按实际板卡尺寸改作电源模块挂架；打印前请用实物核对孔距和净空。
 
-## 演示视频
-
-下面的视频展示了本项目云台控制端到端联调效果。视频文件同时保存在 [`docs/demo/armtrack-gimbal-demo.mp4`](docs/demo/armtrack-gimbal-demo.mp4)，便于下载和离线查看。
-
-<video controls muted playsinline preload="metadata" width="100%">
-  <source src="https://raw.githubusercontent.com/StarDust-XCHH/ArmtrackGimbalControl/master/docs/demo/armtrack-gimbal-demo.mp4" type="video/mp4">
-  当前浏览器不支持 HTML5 视频播放，请使用<a href="docs/demo/armtrack-gimbal-demo.mp4">视频文件链接</a>下载查看。
-</video>
-
-视频为 H.264/AAC、1920 x 1026、约 23 秒，压缩后约 5.8 MB。README 播放器使用公开仓库的 raw 地址；仓库 push 后即可在 GitHub 项目页加载，若浏览器或 GitHub 安全策略阻止内嵌播放，仍可点击上面的仓库文件链接。
 
 ## 项目目录
 
