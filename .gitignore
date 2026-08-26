@@ -1,0 +1,34 @@
+# STM32/CMake build output
+build/
+cmake-build-*/
+*.elf
+*.hex
+*.bin
+*.map
+*.d
+*.o
+*.obj
+
+# IDE and editor metadata
+.idea/
+.vscode/
+*.user
+*.swp
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+
+# Coverage and local logs
+.coverage
+htmlcov/
+*.log
+
+# CubeMX backup files
+*.backup
+*_old.ioc
